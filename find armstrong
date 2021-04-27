@@ -1,0 +1,14 @@
+y=int(input('please enter a number'))
+str_y=str(y)
+length = len(str_y)
+print("order value is", length)
+total1=0
+while(y!=0):
+    temp1=y%10
+    totoal1=total1+temp1**length
+    y=y//10
+if total1==y:
+    print("the given number is an amstrong",total1)
+else:
+    print("the given number is not an amstrong")
+print(integer1)
